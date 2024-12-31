@@ -1,0 +1,17 @@
+.serene{
+    /* color: ; */
+}
+nav{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2.5rem;
+
+}
+
+button{
+    background: #EDAB42;
+    font-family: "poppins";
+  
+}
