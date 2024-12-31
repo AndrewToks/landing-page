@@ -4,7 +4,7 @@ const ShowCase = () => {
   return (
     <section className='container flex flex-col gap-16 p-5 mt-24'>
         <article className='max-w-[900px] flex-col flex lg:flex-row justify-center items-center ml-auto mr-auto gap-2 lg:gap-[72px]'>
-            <img src="./image1.png" alt="" className='w-[511px] h-[400px]' />
+            <img src="./image1.png" alt="" width={500} height={500} className='w-[511px] h-[400px]' />
             <div className='flex flex-col gap-5'>
                 <h2 className='text-[24px] font-bold text-[#23262F]'>Interior design solutions that 
                 reflect your unique style
@@ -26,7 +26,7 @@ const ShowCase = () => {
                 </small>
                 <button className='bg-[#EDAB42] w-[250px] h-[35px] rounded-[7px]'>Learn More</button>
             </div>
-            <img src="./image1.png" alt="" className='w-[511px] h-[400px]' />
+            <img src="./image1.png" alt="" className='w-[511px] h-[400px]' width={500} height={500}/>
         </article>
     </section>
   )
