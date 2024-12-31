@@ -4,6 +4,7 @@ import ShowCase from './ShowCase'
 import MiddleContent from './MiddleContent'
 import Service from './Service'
 import MiddleImage from './MiddleImage'
+import Project from './Project'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <ShowCase />
       <MiddleImage />
       <Service />
+      <Project />
     </div>
   )
 }
