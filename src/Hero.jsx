@@ -11,8 +11,8 @@ const Hero = () => {
           From Concept to Completion,we bring your vision to life with customs solutions
         and expert craftsmanship.</small>
         <div className='flex justify-center items-center gap-[5px] lg:gap-[12px] mt-5'>
-          <button className='text-[13px] lg:text-[16px] bg-transparent hover:backdrop-blur-md w-[250px] border-[1px] rounded-[7px] py-[12px] px-[10px] lg:px-[32px]'>Learn More</button>
-          <button className='text-[13px] lg:text-[16px] text-[#23262F] w-[250px] bg-[#EDAB42] hover:bg-[#c58927] hover:border-[#c58927] border-[1px] border-[#EDAB42] rounded-[7px] py-[12px] px-[10px] lg:px-[32px]'>Schedule Consultation</button>
+          <button className='text-[12px] lg:text-[16px] bg-transparent hover:backdrop-blur-md w-[250px] border-[1px] rounded-[7px] py-[12px] px-[10px] lg:px-[32px]'>Learn More</button>
+          <button className='text-[12px] lg:text-[16px] text-[#23262F] w-[250px] bg-[#EDAB42] hover:bg-[#c58927] hover:border-[#c58927] border-[1px] border-[#EDAB42] rounded-[7px] py-[12px] px-[10px] lg:px-[32px]'>Schedule Consultation</button>
         </div>
       </div>
     </section>
