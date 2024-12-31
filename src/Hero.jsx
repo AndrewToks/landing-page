@@ -1,9 +1,9 @@
 import React from 'react'
 import NavBar from './NavBar'
-import "./Hero.css"
+// import "./Hero.css"
 const Hero = () => {
   return (
-    <section className='hero-section text-white relative p-3'>
+    <section tyle="background-image: url('hero-section.png')" className='text-white relative p-3'>
       <NavBar />
       <div className='relative flex flex-col justify-center text-center top-[45px]'>
         <p className='text-[30px] lg:text-[60px] max-w-[871px] ml-auto mr-auto'>Personalized Interior Designs For Your Dream Home</p>
