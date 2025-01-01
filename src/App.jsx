@@ -5,6 +5,7 @@ import MiddleContent from './MiddleContent'
 import Service from './Service'
 import MiddleImage from './MiddleImage'
 import Project from './Project'
+import Testimony from './Testimony'
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <MiddleImage />
       <Service />
       <Project />
+      <Testimony />
     </div>
   )
 }
