@@ -15,7 +15,7 @@ const App = () => {
       <ShowCase />
       <MiddleImage />
       <Service />
-      {/* <Project /> */}
+      <Project />
     </div>
   )
 }

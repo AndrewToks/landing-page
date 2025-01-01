@@ -2,7 +2,7 @@ import React from 'react'
 
 const MiddleContent = () => {
   return (
-    <div className='bg-[#23262F] gap-4 relative flex justify-around items-center w-[350px] lg:w-[900px] ml-auto mr-auto z-50 -mt-10 lg:-mt-14 h-[100px] lg:h-[175px] rounded-[10px]'>
+    <div className='bg-[#23262F] gap-4 relative flex justify-around items-center max-w-fit lg:max-w-[900px] ml-auto mr-auto z-50 -mt-10 lg:-mt-14 rounded-[10px] p-3'>
         <article className='text-center'>
             <h3 className='text-[#EDAB42] text-[20px] lg:text-[40px]'>500+</h3>
             <small className='text-[14px] lg:text-[24px] text-[#FBFCFF]'>Satisfied Clients</small>
