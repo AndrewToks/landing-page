@@ -8,6 +8,7 @@ const Footer = () => {
   return (
     <div className="w-full h-full">
       <main className="bg-bgImg bg-center bg-no-repeat bg-cover min-h-screen h-fit w-full text-white">
+
         {/* Hero Section */}
         <div className="p-5 text-center">
           <div className="max-w-[627px] mx-auto mt-14 mb-10 flex flex-col items-center gap-4">
@@ -28,7 +29,7 @@ const Footer = () => {
                   <span className="text-[#EDAB42]">Serene</span>
                   <span>haven</span>
                 </h1>
-                <ul  className="space-y-2 text-sm">
+                <ul  className="space-y-2 text-sm justify-center flex flex-col items-start">
                   <li>Contact Us</li>
                   <li className="flex gap-2 items-start">
                     <FaLocationDot className="text-[#EDAB42]" size={20} />
