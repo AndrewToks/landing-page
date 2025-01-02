@@ -20,19 +20,19 @@ const Footer = () => {
           </div>
 
           {/* Footer Grid */}
-          <div className="max-w-[900px] mx-auto px-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-start">
+          <div className='max-w-fit mx-auto'>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-start">
               {/* Column 1 */}
               <article className="flex flex-col gap-4 items-start">
                 <h1 className="text-[20px] font-semibold">
                   <span className="text-[#EDAB42]">Serene</span>
                   <span>haven</span>
                 </h1>
-                <ul className="flex flex-col gap-2">
+                <ul  className="space-y-2 text-sm">
                   <li>Contact Us</li>
                   <li className="flex gap-2 items-start">
                     <FaLocationDot className="text-[#EDAB42]" size={20} />
-                    <span className="text-[12px]">
+                    <span className="text-[12px] max-w-[200px] text-start">
                       Wisconsin Ave, Suite 700 Chevy Chase, Maryland 20815
                     </span>
                   </li>
@@ -44,9 +44,9 @@ const Footer = () => {
               </article>
 
               {/* Column 2 */}
-              <article className="flex flex-col items-start gap-2">
+              <article className="flex flex-col gap-4 items-start">
                 <h1 className="font-semibold mb-2">Product</h1>
-                <ul className="space-y-2 text-sm">
+                <ul className="space-y-2 text-sm justify-center flex flex-col items-start">
                   <li>Landing Page</li>
                   <li>Popup Builder</li>
                   <li>Web Design</li>
@@ -56,9 +56,9 @@ const Footer = () => {
               </article>
 
               {/* Column 3 */}
-              <article className="flex flex-col items-start gap-2">
+              <article className="flex flex-col gap-4 items-start">
                 <h1 className="font-semibold mb-2">Resources</h1>
-                <ul className="space-y-2 text-sm">
+                <ul className="space-y-2 text-sm justify-center flex flex-col items-start">
                   <li>Academy</li>
                   <li>Blog</li>
                   <li>Themes</li>
@@ -69,9 +69,9 @@ const Footer = () => {
               </article>
 
               {/* Column 4 */}
-              <article className="flex flex-col items-start gap-2">
+              <article className="flex flex-col gap-4 items-start">
                 <h1 className="font-semibold mb-2">Company</h1>
-                <ul className="space-y-2 text-sm">
+                <ul className="space-y-2 text-sm justify-center flex flex-col items-start">
                   <li>About Us</li>
                   <li>Careers</li>
                   <li>FAQs</li>
@@ -81,27 +81,30 @@ const Footer = () => {
               </article>
 
               {/* Column 5 */}
-              <article className="flex flex-col items-start gap-4">
+              <article className="flex flex-col gap-4 items-start">
                 <h1 className="font-semibold mb-3">Follow Us</h1>
-                <div className="flex gap-4">
+                <ul className="space-y-2 text-sm justify-center flex flex-col items-start">
+                <li className="flex gap-4">
                   <FaInstagram />
                   <FaFacebook />
                   <FaTwitter />
-                </div>
-                <small className="text-sm">Receive exclusive offers in your mailbox</small>
-                <div className="flex flex-col lg:flex-row gap-3 items-start w-full">
-                  <div className="relative w-full">
+                </li>
+                <li className="text-sm">Receive exclusive offers in your mailbox</li>
+                <li className='flex'>
+                <li className='relative'>
                     <AiFillMail className="absolute left-2 top-1/2 transform -translate-y-1/2 text-[#EDAB42]" size={20} />
                     <input
                       type="text"
                       placeholder="Enter your mail"
                       className="w-full rounded-[7px] text-[15px] py-2 pl-10 pr-4 bg-[#23262f] text-white"
-                    />
-                  </div>
-                  <button className="text-[12px] lg:text-[16px] text-[#23262F] bg-[#EDAB42] hover:bg-[#c58927] border border-[#EDAB42] rounded-[7px] py-[8px] px-[16px]">
+                    /></li>
+                    <li>
+                    <button className="text-[12px] lg:text-[16px] text-[#23262F] bg-[#EDAB42] hover:bg-[#c58927] border border-[#EDAB42] rounded-[7px] py-[8px] px-[16px]">
                     Subscribe
                   </button>
-                </div>
+                  </li>
+                  </li>
+                </ul>
               </article>
             </div>
           </div>
