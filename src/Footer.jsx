@@ -22,14 +22,14 @@ const Footer = () => {
 
           {/* Footer Grid */}
           <div  className="max-w-[1200px] mx-auto px-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center lg:items-start">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center lg:items-start gap-5 lg:gap-0">
               {/* Column 1 */}
-              <article className="flex flex-col gap-4 items-start">
+              <article className="flex flex-col gap-4 items-center lg:items-start">
                 <h1 className="text-[20px] font-semibold">
                   <span className="text-[#EDAB42]">Serene</span>
                   <span>haven</span>
                 </h1>
-                <ul  className="space-y-2 text-sm justify-center flex flex-col items-start">
+                <ul  className="space-y-2 text-sm justify-center flex flex-col items-center lg:items-start">
                   <li>Contact Us</li>
                   <li className="flex gap-2 items-start">
                     <FaLocationDot className="text-[#EDAB42]" size={20} />
@@ -45,9 +45,9 @@ const Footer = () => {
               </article>
 
               {/* Column 2 */}
-              <article className="flex flex-col gap-4 items-start">
+              <article className="flex flex-col gap-4 items-center lg:items-start">
                 <h1 className="font-semibold mb-2">Product</h1>
-                <ul className="space-y-2 text-sm justify-center flex flex-col items-start">
+                <ul className="space-y-2 text-sm justify-center flex flex-col items-center lg:items-start">
                   <li>Landing Page</li>
                   <li>Popup Builder</li>
                   <li>Web Design</li>
@@ -57,9 +57,9 @@ const Footer = () => {
               </article>
 
               {/* Column 3 */}
-              <article className="flex flex-col gap-4 items-start">
+              <article  className="flex flex-col gap-4 items-center lg:items-start">
                 <h1 className="font-semibold mb-2">Resources</h1>
-                <ul className="space-y-2 text-sm justify-center flex flex-col items-start">
+                <ul className="space-y-2 text-sm justify-center flex flex-col items-center lg:items-start">
                   <li>Academy</li>
                   <li>Blog</li>
                   <li>Themes</li>
@@ -70,9 +70,9 @@ const Footer = () => {
               </article>
 
               {/* Column 4 */}
-              <article className="flex flex-col gap-4 items-start">
+              <article className="flex flex-col gap-4 items-center lg:items-start">
                 <h1 className="font-semibold mb-2">Company</h1>
-                <ul className="space-y-2 text-sm justify-center flex flex-col items-start">
+                <ul className="space-y-2 text-sm justify-center flex flex-col items-center lg:items-start">
                   <li>About Us</li>
                   <li>Careers</li>
                   <li>FAQs</li>
@@ -82,9 +82,9 @@ const Footer = () => {
               </article>
 
               {/* Column 5 */}
-              <article className="flex flex-col gap-4 items-start">
+              <article  className="flex flex-col gap-2 lg:gap-4 items-center lg:items-start">
                 <h1 className="font-semibold mb-3">Follow Us</h1>
-                <ul className="space-y-2 text-sm justify-center flex flex-col items-start">
+                <ul className="space-y-2 text-sm justify-center flex flex-col items-center lg:items-start">
                 <li className="flex gap-4">
                   <FaInstagram />
                   <FaFacebook />
