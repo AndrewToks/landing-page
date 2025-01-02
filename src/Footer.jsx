@@ -6,7 +6,7 @@ import { AiFillMail } from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <div className="w-full h-full">
+    <div id='contact' className="w-full h-full">
       <main className="bg-bgImg bg-center bg-no-repeat bg-cover min-h-screen h-fit w-full text-white">
         {/* Hero Section */}
         <div className="p-5 text-center">
@@ -23,7 +23,7 @@ const Footer = () => {
           <div  className="max-w-[1200px] mx-auto px-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center lg:items-start gap-10 lg:gap-0">
               {/* Column 1 */}
-              <article className="flex flex-col gap-4 items-center lg:items-start">
+              <article  className="flex flex-col gap-4 items-center lg:items-start">
                 <h1 className="text-[20px] font-semibold">
                   <span className="text-[#EDAB42]">Serene</span>
                   <span>haven</span>
@@ -69,7 +69,7 @@ const Footer = () => {
               </article>
 
               {/* Column 4 */}
-              <article className="flex flex-col gap-4 items-center lg:items-start">
+              <article id='about' className="flex flex-col gap-4 items-center lg:items-start">
                 <h1 className="font-semibold mb-2">Company</h1>
                 <ul className="space-y-2 text-sm justify-center flex flex-col items-center lg:items-start">
                   <li>About Us</li>

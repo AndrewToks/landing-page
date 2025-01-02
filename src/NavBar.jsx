@@ -9,10 +9,10 @@ const NavBar = () => {
         <h1 className='text-[20px]'><span className='text-[#EDAB42]'>Serene</span><span>haven</span></h1>
           <ul className='hidden lg:flex justify-center items-center gap-5 text-[17px]'>
               <li>Home</li>
-              <li>About</li>
+              <a href="#about"><li>About</li></a>
               <a href="#project"><li>Projects</li></a>
               <li>FAQ</li>
-              <li>Contact</li>
+              <a href="#contact"><li>Contact</li></a>
           </ul>
           <button className='hidden lg:block bg-[#EDAB42] hover:bg-[#c58927] font-medium text-[#23262F] text-[16px] h-[48px] w-[146px] rounded-[7px]'>Get Started</button>
         
@@ -50,7 +50,7 @@ const NavBar = () => {
               setShowMenu(false)
             }}>FAQ</li>
             </a>
-            <a href="">
+            <a href="#contact">
             <li
             onClick={()=>{
               setShowMenu(false)
