@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaStar} from "react-icons/fa"
+import { ImQuotesLeft } from "react-icons/im";
 const Testimony = () => {
   return (
     <section>
@@ -8,6 +9,7 @@ const Testimony = () => {
             <div className='max-w-[900px] ml-auto mr-auto mt-16 flex-col lg:flex lg:flex-row justify-center items-center p-5'>
             <div>
             <div className='bg-[#23262F] mb-5 rounded-[15px] relative lg:left-20 z-[999px] max-w-[673px] h-[300px] flex justify-center flex-col gap-5 p-5'>
+            <ImQuotesLeft className='text-[#EDAB42]' size={60}/>
                 <small className='text-[#C5C5C5] text-[16px]'>
                 I couldn't be happier with the work done by
                  [Your Company Name]. They listened to my needs, 
