@@ -98,7 +98,7 @@ const Footer = () => {
                       placeholder="Enter your mail"
                       className="w-full max-w-fit  rounded-[7px] text-[15px] py-2 pl-10 pr-6 bg-[#13151a] text-white"
                     /></li>
-                    <li className="text-[12px] lg:text-[15px] w-full max-w-fit text-[#23262F] bg-[#EDAB42] hover:bg-[#c58927] border border-[#EDAB42] rounded-[7px] py-[8px]">
+                    <li className="text-[12px] lg:text-[15px] w-full max-w-fit text-[#23262F] bg-[#EDAB42] hover:bg-[#c58927] border border-[#EDAB42] rounded-[7px] py-[8px] px-4">
                     Subscribe
                   </li>
                   {/* </li> */}
