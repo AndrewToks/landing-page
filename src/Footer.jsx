@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
 
           {/* Footer Grid */}
-          <div className='max-w-fit mx-auto'>
+          <div  className="max-w-[1200px] mx-auto px-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-start">
               {/* Column 1 */}
               <article className="flex flex-col gap-4 items-start">
@@ -90,13 +90,13 @@ const Footer = () => {
                   <FaTwitter />
                 </li>
                 <li className="text-sm">Receive exclusive offers in your mailbox</li>
-                <li className='flex'>
+                <li className='flex items-center gap-4'>
                 <li className='relative'>
                     <AiFillMail className="absolute left-2 top-1/2 transform -translate-y-1/2 text-[#EDAB42]" size={20} />
                     <input
                       type="text"
                       placeholder="Enter your mail"
-                      className="w-full rounded-[7px] text-[15px] py-2 pl-10 pr-4 bg-[#23262f] text-white"
+                      className="w-full max-w-[300px] rounded-[7px] text-[15px] py-2 pl-10 pr-4 bg-[#23262f] text-white"
                     /></li>
                     <li>
                     <button className="text-[12px] lg:text-[16px] text-[#23262F] bg-[#EDAB42] hover:bg-[#c58927] border border-[#EDAB42] rounded-[7px] py-[8px] px-[16px]">
