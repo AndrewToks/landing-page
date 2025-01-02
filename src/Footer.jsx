@@ -81,29 +81,29 @@ const Footer = () => {
               </article>
 
               {/* Column 5 */}
-              <article  className="flex flex-col gap-4 items-center lg:items-start">
-                <h1 className="font-semibold mb-3">Follow Us</h1>
-                <ul className="space-y-2 text-sm justify-center flex flex-col items-center lg:items-start">
-                <li className="flex gap-4 text-[#23262F]">
-                  <FaInstagram />
-                  <FaFacebook />
-                  <FaTwitter />
-                </li>
-                <li className="text-sm">Receive exclusive offers in your mailbox</li>
-                {/* <li className='flex items-center gap-4 '> */}
-                <li className='relative'>
-                    <AiFillMail className="absolute left-2 top-1/2 transform -translate-y-1/2 text-[#EDAB42]" size={20} />
-                    <input
-                      type="text"
-                      placeholder="Enter your mail"
-                      className="w-full max-w-[300px] rounded-[7px] text-[15px] py-2 pl-10 pr-4 bg-[#23262f] text-white"
-                    /></li>
-                    <li className="text-[12px] lg:text-[16px] text-[#23262F] bg-[#EDAB42] hover:bg-[#c58927] border border-[#EDAB42] rounded-[7px] py-[8px] px-[16px]">
-                    Subscribe
-                  </li>
-                  
-                </ul>
-              </article>
+              <article className="flex flex-col gap-4 items-start">
+  <h1 className="font-semibold mb-3">Follow Us</h1>
+  <ul className="space-y-2 text-sm flex flex-col items-start">
+    <li className="flex gap-4 text-[#C5C5C5]">
+      <FaInstagram />
+      <FaFacebook />
+      <FaTwitter />
+    </li>
+    <li className="text-sm">Receive exclusive offers in your mailbox</li>
+    <li className="relative w-[250px]">
+      <AiFillMail className="absolute left-2 top-1/2 transform -translate-y-1/2 text-[#EDAB42]" size={20} />
+      <input
+        type="text"
+        placeholder="Enter your mail"
+        className="w-full rounded-[7px] text-[15px] py-2 pl-10 pr-4 bg-[#13151a] text-white"
+      />
+    </li>
+    <li className="text-[12px] lg:text-[16px] w-full text-[#23262F] bg-[#EDAB42] hover:bg-[#c58927] border border-[#EDAB42] rounded-[7px] py-[8px] px-[16px]">
+      Subscribe
+    </li>
+  </ul>
+</article>
+
             </div>
           </div>
         </div>

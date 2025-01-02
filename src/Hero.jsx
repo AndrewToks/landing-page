@@ -3,7 +3,7 @@ import NavBar from './NavBar'
 // import "./Hero.css"
 const Hero = () => {
   return (
-    <section className="text-white relative p-3 bg-bgImg w-full h-screen bg-cover bg-center bg-no-repeat">
+    <section className="text-white relative p-3 bg-bgImgHero w-full h-screen bg-cover bg-center bg-no-repeat">
       <NavBar />
       <div className='relative flex flex-col justify-center text-center top-[45px] w-full h-screen lg:h-fit'>
         <p className='text-[30px] lg:text-[60px] max-w-[871px] ml-auto mr-auto'>Personalized Interior Designs For Your Dream Home</p>
