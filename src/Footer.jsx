@@ -8,7 +8,6 @@ const Footer = () => {
   return (
     <div className="w-full h-full">
       <main className="bg-bgImg bg-center bg-no-repeat bg-cover min-h-screen h-fit w-full text-white">
-
         {/* Hero Section */}
         <div className="p-5 text-center">
           <div className="max-w-[627px] mx-auto mt-14 mb-10 flex flex-col items-center gap-4">
@@ -22,7 +21,7 @@ const Footer = () => {
 
           {/* Footer Grid */}
           <div  className="max-w-[1200px] mx-auto px-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center lg:items-start gap-5 lg:gap-0">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center lg:items-start gap-10 lg:gap-0">
               {/* Column 1 */}
               <article className="flex flex-col gap-4 items-center lg:items-start">
                 <h1 className="text-[20px] font-semibold">
@@ -82,16 +81,16 @@ const Footer = () => {
               </article>
 
               {/* Column 5 */}
-              <article  className="flex flex-col gap-2 lg:gap-4 items-center lg:items-start">
+              <article  className="flex flex-col gap-4 items-center lg:items-start">
                 <h1 className="font-semibold mb-3">Follow Us</h1>
                 <ul className="space-y-2 text-sm justify-center flex flex-col items-center lg:items-start">
-                <li className="flex gap-4">
+                <li className="flex gap-4 text-[#23262F]">
                   <FaInstagram />
                   <FaFacebook />
                   <FaTwitter />
                 </li>
                 <li className="text-sm">Receive exclusive offers in your mailbox</li>
-                <li className='flex items-center gap-4 '>
+                {/* <li className='flex items-center gap-4 '> */}
                 <li className='relative'>
                     <AiFillMail className="absolute left-2 top-1/2 transform -translate-y-1/2 text-[#EDAB42]" size={20} />
                     <input
@@ -99,12 +98,10 @@ const Footer = () => {
                       placeholder="Enter your mail"
                       className="w-full max-w-[300px] rounded-[7px] text-[15px] py-2 pl-10 pr-4 bg-[#23262f] text-white"
                     /></li>
-                    <li>
-                    <button className="text-[12px] lg:text-[16px] text-[#23262F] bg-[#EDAB42] hover:bg-[#c58927] border border-[#EDAB42] rounded-[7px] py-[8px] px-[16px]">
+                    <li className="text-[12px] lg:text-[16px] text-[#23262F] bg-[#EDAB42] hover:bg-[#c58927] border border-[#EDAB42] rounded-[7px] py-[8px] px-[16px]">
                     Subscribe
-                  </button>
                   </li>
-                  </li>
+                  
                 </ul>
               </article>
             </div>
