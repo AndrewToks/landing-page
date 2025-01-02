@@ -3,9 +3,9 @@ import NavBar from './NavBar'
 // import "./Hero.css"
 const Hero = () => {
   return (
-    <section className="text-white relative p-3 bg-[url('./hero-section.png')] w-full h-full bg-cover bg-center">
+    <section className="text-white relative p-3 bg-bgImg w-full h-screen bg-cover bg-center bg-no-repeat">
       <NavBar />
-      <div className='relative flex flex-col justify-center text-center top-[45px]'>
+      <div className='relative flex flex-col justify-center text-center top-[45px] w-full h-screen lg:h-fit'>
         <p className='text-[30px] lg:text-[60px] max-w-[871px] ml-auto mr-auto'>Personalized Interior Designs For Your Dream Home</p>
         <small className='text-[#d4d4d4] max-w-[730px] ml-auto mr-auto text-[14px] lg:text-[24px]'>
           From Concept to Completion,we bring your vision to life with customs solutions

@@ -4,11 +4,11 @@ const Testimony = () => {
   return (
     <section>
         <div>
-            <h1 className='max-w-[760px] text-[#23262F] text-[45px] text-center ml-auto mr-auto mt-24'>Here's What Our Satisfied Clients Are Saying</h1>
-            <div className='flex flex-row'>
-            <div className='relative flex max-w-[900px] ml-auto mr-auto mt-10'>
-            <div className='bg-[#23262F] rounded-[15px] z-[999px] max-w-[673px] flex justify-center flex-col gap-5 p-5'>
-                <small className='text-[#C5C5C5]'>
+            <h1 className='max-w-[760px] text-[#23262F] text-[24px]  lg:text-[45px] text-center ml-auto mr-auto mt-24'>Here's What Our Satisfied Clients Are Saying</h1>
+            <div className='max-w-[900px] ml-auto mr-auto mt-16 flex-col lg:flex lg:flex-row justify-center items-center p-5'>
+            <div>
+            <div className='bg-[#23262F] mb-5 rounded-[15px] relative lg:left-20 z-[999px] max-w-[673px] h-[300px] flex justify-center flex-col gap-5 p-5'>
+                <small className='text-[#C5C5C5] text-[16px]'>
                 I couldn't be happier with the work done by
                  [Your Company Name]. They listened to my needs, 
                  provided exceptional design options, and executed everything flawlessly. My home now feels both beautiful and functional. I highly recommend 
@@ -27,7 +27,7 @@ const Testimony = () => {
             </div>
             </div>
             <div>
-                <img src="./testimony.PNG" alt="" width={500} height={800} className='w-[477px] h-[600px]'/>
+                <img src="./testimony.PNG" alt="" width={300} height={300} className='w-[550px] h-[500px] rounded-[15px]'/>
             </div>
         </div>
         </div>
