@@ -89,7 +89,7 @@ const Footer = () => {
                   <FaFacebook />
                   <FaTwitter />
                 </li>
-                <li className="text-sm">Receive exclusive offers in your mailbox</li>
+                <li className="text-[12.5px] text-start">Receive exclusive offers in your mailbox</li>
                 {/* <li className='flex items-center gap-4 '> */}
                 <li className='relative w-[250px]'>
                     <AiFillMail className="absolute left-2 top-1/2 transform -translate-y-1/2 text-[#EDAB42]" size={20} />
