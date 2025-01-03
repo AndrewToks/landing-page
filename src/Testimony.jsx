@@ -16,7 +16,7 @@ const Testimony = () => {
                  provided exceptional design options, and executed everything flawlessly. My home now feels both beautiful and functional. I highly recommend 
                 their services to anyone looking to elevate their living space.
                 </small>
-                <div className='text-white flex gap-2 items-center text-sm'>
+                <div className='text-white flex gap-2 items-center text-sm mb-5'>
                 <p>Femi</p>
                     <span className='flex gap-1'>
                         <FaStar className='text-[#EDAB42]'/>
