@@ -1,6 +1,7 @@
 import React from 'react'
 import {RiServiceLine} from "react-icons/ri"
 import { BsPeopleFill } from "react-icons/bs";
+import { MdCleanHands } from "react-icons/md";
 
 const Service = () => {
   return (
@@ -17,7 +18,7 @@ const Service = () => {
               <small className='text-[#C5C5C5] text-center  text-[15px] lg:text-[16px]'>From concept to completion,we handle every detail with precision and passion</small>
             </article>
             <article className=' flex flex-col items-center gap-4'>
-            <RiServiceLine className='bg-[#32342D] p-4 rounded-full text-[#EDAB42]' size={50}/>
+            <MdCleanHands className='bg-[#32342D] p-4 rounded-full text-[#EDAB42]' size={50}/>
               <h3 className='text-[#DCDCDC] text-[20px]'>
               Exceptional Value
               </h3>
