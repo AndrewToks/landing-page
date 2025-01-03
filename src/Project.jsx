@@ -3,12 +3,12 @@ import { PiArrowCircleUpLeftThin } from "react-icons/pi"
 
 const Project = () => {
   return (
-    <section id='project' className='bg-[#23262F] text-white'>
+    <section id='project'>
       <div>
-        <h1 className='text-[24px] lg:text-[45px] text-center -mt-3'>Explore Some Of Our Projects</h1>
+        <h1 className='text-[24px] lg:text-[45px] text-center mt-20 '>Explore Some Of Our Projects</h1>
         <div className='lg:max-w-[900px] flex justify-end items-end flex-col ml-auto mr-auto mt-10 p-5'>
-        <small className='text-[#EDAB42]  text-sm underline mb-5'>See all</small>
-        <div className='mr-auto ml-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px]'>
+        <small className='text-[#EDAB42] text-sm underline mb-5'>See all</small>
+        <div className='mr-auto ml-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] mb-24'>
           <div className='relative'>
           <img src="./room1.jpg" alt="" width={250} height={250} className='w-[300px] h-[250px]'/>
           <PiArrowCircleUpLeftThin  className='absolute bottom-2 left-2' size={25}/>

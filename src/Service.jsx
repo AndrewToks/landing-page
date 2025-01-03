@@ -6,7 +6,7 @@ import { MdCleanHands } from "react-icons/md";
 const Service = () => {
   return (
     
-    <section id='service' className='bg-[#23262F] text-white p-5 flex flex-col justify-center items-center mt-10'>
+    <section id='service' className='bg-[#23262F] text-white p-5 flex flex-col justify-center items-center mt-24 lg:mt-12'>
         <main className='flex flex-col gap-10'>
           <h1 className='text-[30px] lg:text-[40px] max-w-[764px] text-center ml-auto mr-auto mt-24'>
             We Offer More Than Customer Satisfaction

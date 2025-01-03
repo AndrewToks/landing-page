@@ -16,8 +16,10 @@ const App = () => {
       <MiddleContent />
       <ShowCase />
       <MiddleImage />
+      <section className='bg-[#23262F] text-white'>
       <Service />
       <Project />
+      </section>
       <Testimony />
       <Footer />
     </div>
