@@ -16,7 +16,7 @@ const Testimony = () => {
                  provided exceptional design options, and executed everything flawlessly. My home now feels both beautiful and functional. I highly recommend 
                 their services to anyone looking to elevate their living space.
                 </small>
-                <div className='text-white flex gap-2 items-center text-sm'>
+                <div className='text-white flex gap-2 items-center text-sm mb-5'>
                 <p>Femi</p>
                     <span className='flex gap-1'>
                         <FaStar className='text-[#EDAB42]'/>
@@ -29,7 +29,7 @@ const Testimony = () => {
             </div>
             </div>
             <div>
-                <img src="./testimony.PNG" alt="" width={300} height={300} className='w-[550px] h-[500px] rounded-[15px]'/>
+                <img src="./testimony.PNG" alt="" width={300} height={300} className='w-[600px] h-[500px] rounded-[15px]'/>
             </div>
         </div>
         </div>
