@@ -18,19 +18,19 @@ const Project = () => {
           <PiArrowCircleUpLeftThin  className='absolute bottom-2 left-2' size={25}/>
           </div>
           <div className='relative'>
-          <img src="./room1.jpg" alt="" width={250} height={250} className='w-[300px] h-[250px]'/>
+          <img src="./room3.PNG" alt="" width={250} height={250} className='w-[300px] h-[250px]'/>
           <PiArrowCircleUpLeftThin  className='absolute bottom-2 left-2' size={25}/>
           </div>
           <div className='relative'>
-          <img src="./room1.jpg" alt="" width={250} height={250} className='w-[300px] h-[250px]'/>
+          <img src="./room4.PNG" alt="" width={250} height={250} className='w-[300px] h-[250px]'/>
           <PiArrowCircleUpLeftThin  className='absolute bottom-2 left-2' size={25}/>
           </div>
           <div className='relative'>
-          <img src="./room1.jpg" alt="" width={250} height={250} className='w-[300px] h-[250px]'/>
+          <img src="./room5.PNG" alt="" width={250} height={250} className='w-[300px] h-[250px]'/>
           <PiArrowCircleUpLeftThin  className='absolute bottom-2 left-2' size={25}/>
           </div>
           <div className='relative'>
-          <img src="./room1.jpg" alt="" width={250} height={250} className='w-[300px] h-[250px]'/>
+          <img src="./room6.PNG" alt="" width={250} height={250} className='w-[300px] h-[250px]'/>
           <PiArrowCircleUpLeftThin  className='absolute bottom-2 left-2' size={25}/>
           </div>
       </div>
